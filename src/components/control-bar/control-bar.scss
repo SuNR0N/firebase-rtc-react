@@ -1,0 +1,17 @@
+.grControlBar {
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+
+  .grIconButton {
+    margin: 0 0.25rem;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

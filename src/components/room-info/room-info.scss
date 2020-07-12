@@ -1,0 +1,26 @@
+.grRoomInfo {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 0 1rem;
+
+  &__id {
+    &--label {
+      margin-right: 0.5rem;
+    }
+
+    &--value {
+      font-weight: bold;
+    }
+  }
+
+  &__peerType {
+    &--label {
+      margin-right: 0.5rem;
+    }
+
+    &--value {
+      font-weight: bold;
+    }
+  }
+}
